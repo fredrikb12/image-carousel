@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Image Carousel</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <img class="arrow left" src="./images/caret-down.svg" alt="left arrow" />
+    <div class="slider-container">
+      <div class="slider">
+        <img
+          class="slide active-slide"
+          src="./images/add.svg"
+          alt="add image"
+        />
+        <img class="slide" src="./images/close.svg" alt="close image" />
+        <img class="slide" src="./images/dashboard.svg" alt="dashboard image" />
+        <img class="slide" src="./images/confirm.svg" alt="confirm image" />
+        <img
+          class="slide"
+          src="./images/notification.svg"
+          alt="notification image"
+        />
+      </div>
+      <div class="circle-container">
+        <div data-circle-index="0"class="circle active-circle"></div>
+        <div data-circle-index="1"class="circle"></div>
+        <div data-circle-index="2"class="circle"></div>
+        <div data-circle-index="3"class="circle"></div>
+        <div data-circle-index="4"class="circle"></div>
+      </div>
+    </div>
+    <img class="arrow right" src="./images/caret-down.svg" alt="right arrow" />
+  </body>
+</html>
